@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import AppRouter from './AppRouter';
+// import Header from './components/common/Header';
 
-function App () {
+function App() {
   return (
-    <div>
-      <h1>Hello !</h1>
-    </div>
-  )
+    <>
+     <AppRouter/>
+
+    </>
+  );
 }
 
-export default App
+export default App;
